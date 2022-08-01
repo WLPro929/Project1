@@ -22,11 +22,11 @@ table {
 td {
   height:40px;
 }
-tr:nth-child(3) {
+tr:nth-child(2:14),td:nth-child(4:6) {
   background-color: green;
   color:white;
 }
 th {
-  background-color:yellow;
+  background-color:white;
   color:black;
 }
