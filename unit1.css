@@ -12,3 +12,21 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+table,th,td {
+  border:2px solid red;
+}
+table {
+  border-collapse:collapse;
+  width:20%;
+}
+td {
+  height:40px;
+}
+tr:nth-child(3) {
+  background-color: green;
+  color:white;
+}
+th {
+  background-color:yellow;
+  color:black;
+}
