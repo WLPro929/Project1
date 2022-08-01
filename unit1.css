@@ -28,7 +28,7 @@ tr:nth-child(6),tr:nth-child(7),
 tr:nth-child(8),tr:nth-child(9),
 tr:nth-child(10),tr:nth-child(11),
 tr:nth-child(12),tr:nth-child(13),
-tr:nth-child(14),td:nth-child(4-6) {
+tr:nth-child(14),td:nth-child(4) {
   background-color: #00ff00;
 }
 th {
