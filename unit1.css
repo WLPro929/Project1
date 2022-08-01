@@ -8,10 +8,6 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
 table,th,td {
   border:2px solid red;
 }
@@ -22,14 +18,11 @@ table {
 td {
   height:40px;
 }
-tr:nth-child(2),tr:nth-child(3),
-tr:nth-child(4),tr:nth-child(5),
-tr:nth-child(6),tr:nth-child(7),
-tr:nth-child(8),tr:nth-child(9),
-tr:nth-child(10),tr:nth-child(11),
-tr:nth-child(12),tr:nth-child(13),
-tr:nth-child(14),td:nth-child(4) {
+td:nth-child(4),td:nth-child(5),td:nth-child(6) {
   background-color: #00ff00;
+}
+td:nth-child(3) {
+  background-color: #ffff00;
 }
 th {
   background-color:white;
