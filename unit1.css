@@ -1,5 +1,5 @@
-table #Table1 {
-  font-family: 'Calibri', Times, serif;
+table {
+  font-family: 'Times New Roman', Times, serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -8,7 +8,7 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-table,th,td {
+#Table1 table,#Table1 th,#Table1 td {
   border:2px solid red;
 }
 table {
