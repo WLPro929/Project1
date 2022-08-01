@@ -8,7 +8,7 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-#Table1 table,#Table1 th,#Table1 td {
+table,th,td {
   border:2px solid red;
 }
 table {
@@ -18,10 +18,10 @@ table {
 td {
   height:40px;
 }
-td:nth-child(4),td:nth-child(5),td:nth-child(6) {
+#Table2# td:nth-child(4),#Table2 td:nth-child(5),#Table2 td:nth-child(6) {
   background-color: #00ff00;
 }
-td:nth-child(3) {
+#Table2 td:nth-child(3) {
   background-color: #ffff00;
 }
 th {
