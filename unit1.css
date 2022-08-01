@@ -18,7 +18,7 @@ table {
 td {
   height:40px;
 }
-#Table2# td:nth-child(4),#Table2 td:nth-child(5),#Table2 td:nth-child(6) {
+#Table2 td:nth-child(4),#Table2 td:nth-child(5),#Table2 td:nth-child(6) {
   background-color: #00ff00;
 }
 #Table2 td:nth-child(3) {
