@@ -1,5 +1,5 @@
-table {
-  font-family: 'Times New Roman', Times, serif;
+table #Table1 {
+  font-family: 'Calibri', Times, serif;
   border-collapse: collapse;
   width: 100%;
 }
