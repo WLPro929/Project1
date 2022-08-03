@@ -14,7 +14,7 @@ score[2] = document.getElementById("score3").value;
 score[3] = document.getElementById("score4").value;
 score[4] = document.getElementById("score5").value;
 score[5] = document.getElementById("score6").value;
-  
+}  
 
 function load() {
   calcAge();
