@@ -21,6 +21,4 @@ function calcCredit() {
 function load() {
   calcAge();
   calcCredit();
-  calcComment();
-  calcGPA();
 }
