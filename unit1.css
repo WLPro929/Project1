@@ -36,3 +36,9 @@ td {
 th {
   background-color:white;
 }
+#Table2 tr:nth-child(15) {
+  background-color:white;
+}
+#t5 {
+  background-color:white;
+}
