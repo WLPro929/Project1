@@ -24,6 +24,9 @@ td {
 #Table2 td:nth-child(3) {
   background-color: #ffff00;
 }
+#Table1 td:nth-child(2) {
+  background-color: #ffff00;
+}
 th {
   background-color:white;
 }
