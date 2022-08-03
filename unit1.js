@@ -2,7 +2,7 @@ function calcAge() {
 var dob = document.getElementById("Birthdate").value;
 var currDate = new Date(dob);
 var currYear = currDate.getFullYear();
-var age = currYear - 
+var age = currYear - 2022
 return document.getElementByID("Age").innerHTML = age
 }
 
