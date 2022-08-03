@@ -5,7 +5,7 @@ function calcAge() {
   var currDate = new Date();
   var currYear = currDate.getFullYear();
   var age = currYear - birthYear
-  return document.getElementByID("Age").innerHTML = age
+  return document.getElementByID("Age").innerHTML = dob
 }
 
 function calcCredit() {
