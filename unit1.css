@@ -27,6 +27,12 @@ td {
 #Table1 td:nth-child(2) {
   background-color: #ffff00;
 }
+#t3 {
+  background-color: #ffff00;
+}
+#t4 {
+  background-color: #00ff00;
+}
 th {
   background-color:white;
 }
