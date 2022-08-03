@@ -1,6 +1,7 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="unit1.css" />
+  <title>Project 1</title>
+  <link rel="stylesheet" type="text/css" href="unit1.css" />
 </head>
 <body>
 <table id="Table1">
@@ -8,13 +9,13 @@
     <td>NIS</td>
     <td><form><input type="text" id="NIS" name="NIS"></form></td>
     <td>Tgl Lahir</td>
-    <td id="t3"><form><input type="text" id="Birthdate" name="Birthdate"></form></td>
+    <td id="t3"><form><input type="date" id="Birthdate" name="Birthdate"></form></td>
   </tr>
    <tr>
     <td>Name</td>
-    <td></td>
+    <td><form><input type="text" id="Name" name="Name"></form></td>
     <td>Umur</td>
-    <td id="t4"></td>
+    <td id="t4"><label id="Age"></td>
   </tr> 
 </table>
 <table id="Table2">
@@ -28,19 +29,19 @@
   </tr>
   <tr>
     <td>1</td>
-    <td>Pendidikan Pancasila</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td id="subject1">Pendidikan Pancasila</td>
+    <td><input type="text" id="score1" value="0"></td>
+    <td><label id="grade1"></td>
+    <td><label id="credit1"></td>
+    <td><label id="comment1"></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Bahasa Indonesia</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><input type="text" id="score2" value="0"></td>
+    <td><label id="grade2"></td>
+    <td><label id="credit1"></td>
+    <td><label id="comment1"></td>
   </tr>
   <tr>
     <td>3</td>
@@ -134,8 +135,17 @@
     <td></td>
     <td></td>
   </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>GPA:</td>
+    <td><label id="GPA"></td>
+    <td></td>
+  </tr>
 </table>
-
+  <button onclick="load()">Save</button>
+  
 </body>
 </html>
 
